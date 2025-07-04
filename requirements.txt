@@ -6,3 +6,4 @@ openai
 twilio
 python-dotenv
 schedule
+langchain-groq
