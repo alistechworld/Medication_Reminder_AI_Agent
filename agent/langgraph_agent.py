@@ -17,7 +17,7 @@ class ReminderState(TypedDict):
 # 🤖 Use Groq model instead of OpenAI
 def run_groq(state: ReminderState):
     model = ChatGroq(
-        model="mixtral-8x7b-32768",  # Or "llama3-70b-8192"
+        model="llama3-70b-8192",  # Or "llama3-70b-8192"
         temperature=0.3,
         api_key=groq_api_key
     )
